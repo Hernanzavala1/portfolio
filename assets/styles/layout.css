@@ -29,7 +29,9 @@ h3.skillsTrioTittle {text-align: center; font-size: 22px;}
   margin: 0 auto;
   text-align: left;
 }
-
+.github_Link{
+  text-align: center;
+}
 .center-contact {
   max-width: 720px;
   display: block;
