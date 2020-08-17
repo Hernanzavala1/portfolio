@@ -456,7 +456,8 @@ div.works-showcase-image-caption {
 #social a.twitter:hover {background-color: #55acee;}
 #social a.instagram {color: #faf9fc;}
 #social a.instagram:hover {background-color: #125688;}
-
+#social a.github {color: #faf9fc;}
+#social a.github:hover {background-color: #125688;}
 #elevator {
   position: fixed;
   bottom: 98px;
@@ -468,7 +469,19 @@ div.works-showcase-image-caption {
   text-align: center; 
   padding: 3px 13px 5px 13px;
 }
-
+#projectCard{
+  border: solid;
+    border-top-color: currentcolor;
+    border-top-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+border-color: black;
+border-width: 5px
+}
 #elevator:hover {
   color: #d7263d;
   -o-transition: .5s;
@@ -504,8 +517,10 @@ div.works-showcase-image-caption {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 10pt;
     padding-left: 0px;
     padding-right: 0px;
+
   }
   #navigation-bar {
     padding: 30px 30px 30px 30px;
