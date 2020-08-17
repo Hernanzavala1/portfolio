@@ -301,15 +301,7 @@ div.skillsTrioWrap div.skillsTrioIMG .fa-paint-brush {
   font-weight: 300;
 }
 
-#works {
-  background-color: #404e5c;
-  font-weight: 100;
-  color: #fff;
-  margin: 0 auto;
-  padding: 100px 0 70px 0;
-  text-align: center;
-  overflow: hidden;
-}
+
 
 #works-showcase {
   background: transparent;
@@ -458,6 +450,11 @@ div.works-showcase-image-caption {
 #social a.instagram:hover {background-color: #125688;}
 #social a.github {color: #faf9fc;}
 #social a.github:hover {background-color: #125688;}
+#ProjectStyle{
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
 #elevator {
   position: fixed;
   bottom: 98px;
@@ -480,7 +477,8 @@ div.works-showcase-image-caption {
     border-left-color: currentcolor;
     border-left-width: medium;
 border-color: black;
-border-width: 5px
+border-width: 5px;
+margin: 5px;
 }
 #elevator:hover {
   color: #d7263d;
@@ -535,9 +533,7 @@ border-width: 5px
     margin-left: 0px;
     margin-right: 0px;
   }
-  #works {
-    padding: 100px 50px 65px 50px;
-  }
+  
   #contact {
     padding: 100px 50px 150px 50px;
   }       
@@ -690,7 +686,4 @@ border-width: 5px
   width: 80%;
   height: 90px;
 
-}
-.works{
-  justify-content: center;
 }
