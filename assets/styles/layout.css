@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+#profilePicture{
+  border-radius:75%;
+}
+
 h2 {
   font-size: 50px;
   font-weight: 900;
@@ -454,6 +458,10 @@ div.works-showcase-image-caption {
   font-size: 17px;
   font-family: 'Times New Roman', Times, serif;
   
+}
+#aboutParagraph{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 #elevator {
   position: fixed;
