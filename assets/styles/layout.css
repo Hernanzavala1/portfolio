@@ -226,6 +226,16 @@ div.skillsTrioWrap div.skillsTrioIMG .fa-paint-brush {
   font-weight: bold;
   align-self: center;
 }
+.backend-li{
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+}
+.other-li{
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+}
 .front-end-tech-list{
   text-align: center;
 }
