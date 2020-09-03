@@ -25,7 +25,10 @@ h2.abt {color: #fff; margin-bottom: 25px; text-transform: uppercase;}
 h2.ski {color: #111; margin-bottom: 40px; text-transform: uppercase;}
 h2.wrk {color: #fff; margin-bottom: 60px; text-transform: uppercase;}
 h2.con {color: #111; margin-bottom: 25px; text-transform: uppercase;}
-h3.skillsTrioTittle {text-align: center; font-size: 22px;}
+h3.skillsTrioTittle {text-align: center; font-size: 22px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;}
 
 .center {
   max-width: 960px;
@@ -218,14 +221,22 @@ div.skillsTrioWrap div.skillsTrioIMG .fa-paint-brush {
   color: #ff9651;
   margin-top: 1px;
 }
-
+.front-end-li{
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+}
+.front-end-tech-list{
+  text-align: center;
+}
 .skillsTrioDesctiption {
-  color: #555;
-  font-family: 'Open Sans', sans-serif; 
-  font-weight: 300;
+  color:black;
+  font-weight: bold;
+  font-size:17px;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.5em;
   text-align: center;
-  margin-bottom: 50px;
+
 }
 
 .skillsTrioSeperator {
@@ -564,6 +575,8 @@ margin: 5px;
     padding: 100px 50px 70px 50px;
   }
   h3.skillsTrioTittle {
+   
+    font-family: 'Times New Roman', Times, serif;
     text-align: center; 
     font-size: 18px; 
     line-height: 1em;
